@@ -65,7 +65,7 @@ function Deposit() {
             Reset
           </button>
         <img src={image} />
-
+              inject register
         </div>
       </div>
     </>
