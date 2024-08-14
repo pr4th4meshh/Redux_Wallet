@@ -2,6 +2,7 @@ import "../App.css"
 import { useDispatch, useSelector } from "react-redux"
 import { add, reset } from "../WalletSlice"
 import { Link } from "react-router-dom"
+import image from "../../public/image.png"
 
 function Deposit() {
   const dispatch = useDispatch()
@@ -63,6 +64,8 @@ function Deposit() {
           >
             Reset
           </button>
+        <img src={image} />
+
         </div>
       </div>
     </>
