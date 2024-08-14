@@ -4,6 +4,7 @@ import { VitePWA, VitePWAOptions } from "vite-plugin-pwa"
 
 const manifestForPlugin: Partial<VitePWAOptions> = {
   registerType: "prompt",
+  injectRegister: "auto",
   manifest: {
     name: "Wallet App",
     short_name: "Wallet App",
